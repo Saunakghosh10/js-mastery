@@ -17,3 +17,4 @@ do {
   console.log("saunak", a);
   a++;
 } while (a <= 400);
+
