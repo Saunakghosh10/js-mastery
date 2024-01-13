@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #212121;">
+    <ul class="language" style="color: white;">
+        <li>js</li>
+    </ul>
+</body>
+<script>
+    // function addlanguage(langname) {
+    //     const li = document.createElement('li');
+    //     li.innerHTML = langname;
+    //     const ul = document.querySelector('.language');
+    //     ul.appendChild(li);
+    // }
+    // addlanguage("python")
+    // addlanguage("typescript")
+
+    function optilang(langname) {
+
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langname));
+        const ul = document.querySelector('.language');
+        ul.appendChild(li);
+
+    }
+    optilang("python")
+    optilang("typescript")
+    optilang("typescript")
+
+    //edit
+    const secondlang = document.querySelector("li:nth-child(2)")
+    console.log(secondlang)
+    const newline = secondlang.innerHTML = "java"
+    secondlang.style.color = "red"
+
+    // const thirdlang = document.querySelector("li:nth-child(3)")
+    // const newli = thirdlang.innerHTML = "c++"
+    // thirdlang.style.color = "green"
+    // newli.textContent = "c++"
+    // thirdlang.replaceWith(newli)
+
+    //remove
+    const lastlang = document.querySelector("li:last-child")
+    lastlang.remove()
+
+</script>
+
+
+</html>
