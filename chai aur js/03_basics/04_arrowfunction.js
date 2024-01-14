@@ -48,3 +48,8 @@ console.log(three(10, 20));
 
 const four = (num1, num2) => ({ username: "saunak" });
 console.log(four(10, 20));
+
+const five = (num1, num2) => num1 * num2 * 2;
+{
+  console.log(five(10, 20 + 30));
+}
