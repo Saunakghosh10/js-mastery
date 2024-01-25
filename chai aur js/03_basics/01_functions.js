@@ -1,9 +1,9 @@
 // functions ----------
 
-function name() {
-  console.log("saunak");
-  console.log("ghosh");
-}
+// function name() {
+//   console.log("saunak");
+//   console.log("ghosh");
+// }
 
 // name(); // calling the function
 
@@ -15,11 +15,13 @@ function name() {
 // const result = add2no(10, 20);
 // console.log(result);
 
-function loginuserme(username, password) {
-  if (username === undefined) {
-    console.log("please enter username");
-    return;
-  }
-  return `user ${username} logged in`;
-}
-console.log(loginuserme("saunak"));
+// function loginuserme(username, password) {
+//   if (username === undefined) {
+//     console.log("please enter username");
+//     return;
+//   }
+//   return `user ${username} logged in`;
+// }
+// console.log(loginuserme("saunak"));
+
+

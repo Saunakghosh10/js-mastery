@@ -1,0 +1,89 @@
+/* AddFieldsInterface styles */
+.AddFieldsInterface {
+  margin-bottom: 20px;
+}
+
+.AddFieldsInterface select {
+  margin-right: 10px;
+}
+
+.AddFieldsInterface button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* FieldModal styles */
+.FieldModal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.FieldModal select,
+.FieldModal input {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.FieldModal button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* FieldInput styles */
+.FieldInput {
+  margin-bottom: 15px;
+}
+
+.FieldInput label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.FieldInput select,
+.FieldInput input {
+  width: 100%;
+  padding: 8px;
+}
+
+/* DisplayFieldsInterface styles */
+.DisplayFieldsInterface {
+  margin-top: 20px;
+}
+
+.DisplayFieldsInterface h3 {
+  margin-bottom: 10px;
+}
+
+/* FieldTextInput, FieldSelectMenu, FieldDatePicker styles */
+.FieldInput div {
+  margin-bottom: 10px;
+}
+
+.FieldInput div label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.FieldInput div input,
+.FieldInput div select {
+  width: 100%;
+  padding: 8px;
+}
+
+.FieldInput div div {
+  color: red;
+}
+
+/* App styles */
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Customize as needed */
